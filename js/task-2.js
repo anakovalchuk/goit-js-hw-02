@@ -4,8 +4,8 @@ function formatMessage(message, maxLength) {
 if (lengthString <= maxLength) {
 return message
 
-} else if (lengthString > maxLength) {
-return message += "..."
+} else {
+return subString += "...";
 }
 }
 
